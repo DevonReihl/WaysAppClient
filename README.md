@@ -28,8 +28,6 @@ OR
 - React
   - Create React App
   - React Router
-- JSX
-- HTML5
 - CSS3
 
 ### Third Party APIs Used
