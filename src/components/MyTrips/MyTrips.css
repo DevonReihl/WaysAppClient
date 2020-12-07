@@ -1,0 +1,137 @@
+.my-trips-header {
+  padding: 15px;
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 0.5em 0 0 0;
+  color: white;
+  font-size: x-large;
+  text-shadow: 2px 2px #000;
+  background: rgb(247, 134, 243);
+  background: linear-gradient(90deg, #48a7f5 0, #40e9e1 100%);
+}
+
+.my-trips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3em;
+  margin-left: 0;
+  padding-left: 2em;
+  padding-right: 3em;
+  border-top: 5px solid var(--waysBlue);
+  border-radius: 20px;
+  min-height: 65vh;
+}
+
+.my-trip-info-group {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 1em 0 5.5em 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-trip-info {
+  box-shadow: 0px 1px 0px 0px #ffffff;
+  border: 2px solid rgb(46, 140, 216);
+  background-color: rgb(46, 140, 216);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 4px;
+  text-decoration: none;
+  width: 155px;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.my-trip-info:hover {
+  background-color: white;
+  color: rgb(46, 140, 216);
+  border: 2px solid rgb(46, 140, 216);
+}
+
+.dropdown {
+  color: #141414;
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+  z-index: 1;
+  padding: 100px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: rgb(152, 247, 250);
+  background-color: rgba(152, 247, 250, 0.4);
+}
+
+.my-trip-dropdown:hover .dropdown {
+  display: block;
+}
+
+.my-trip-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.edit-delete-trip-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.delete-btn {
+  width: 7em !important;
+}
+
+.delete-btn,
+.edit-btn {
+  width: 5em;
+  font-size: 1em;
+  text-align: center;
+  margin: 0.4em 0 0 0;
+  padding: 0;
+}
+
+.my-trip-card-wrapper {
+  margin: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .my-trip-info-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dropdown {
+    width: 70%;
+    left: 10%;
+    position: absolute;
+  }
+}

@@ -1,0 +1,22 @@
+.LoginForm > div > label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1b1b1b;
+}
+
+.LoginForm {
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+.button-wrapper > a {
+  color: rgb(46, 140, 216);
+  font-weight: bold;
+}
+
+@media all and (min-width: 460px) {
+  .LoginForm {
+    width: 400px;
+  }
+}

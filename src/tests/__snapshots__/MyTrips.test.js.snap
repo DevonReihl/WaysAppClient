@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyTrips component Matches snapshot 1`] = `<MyTrips />`;

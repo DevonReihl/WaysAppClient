@@ -1,0 +1,144 @@
+.TripCard {
+  height: 400px;
+  width: 315px;
+  border-radius: 6px;
+  border: 2px rgb(104, 104, 104) solid;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.TripCard:hover {
+  box-shadow: 2px 11px 11px rgb(122, 122, 122);
+  border: 2px rgb(219, 219, 219) solid;
+}
+
+.TripCard-topimage {
+  border-radius: 6px;
+  width: 315px;
+  height: 165px;
+}
+
+.TripCard-middle-section {
+  height: 151px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.TripCard-title {
+  color: black;
+  font-weight: bold;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  margin-top: 3px;
+}
+
+.TripCard-title > h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.TripCard-topimage > img {
+  height: 165px;
+  width: 315px;
+}
+
+.Activities {
+  font-weight: bold;
+  font-size: 17px;
+  min-height: 18px;
+  padding-left: 1px;
+  word-wrap: break-word;
+}
+
+.Activities > p {
+  margin: 0;
+}
+
+.TripCard-title > span {
+  color: rgb(70, 70, 70);
+  font-size: 17px;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+.TripCard-bottom {
+  height: 80px;
+  width: 315px;
+  color: rgb(8, 8, 8);
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.pink {
+  background-color: rgb(211, 62, 136);
+}
+
+.blue {
+  background-color: rgb(91, 114, 241);
+}
+
+.orange {
+  background-color: rgb(233, 159, 64);
+}
+
+.violet {
+  background-color: rgb(163, 83, 216);
+}
+
+.baby-blue {
+  background-color: rgb(68, 157, 230);
+}
+
+.TripCard-bottom-info > span {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.TripCard-bottom-info {
+  padding-top: 25px;
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.TripCard-bottom-info > b {
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  font-size: 18px;
+  text-shadow: none;
+}
+
+img.card-heart {
+  width: 2.4em;
+  margin-top: 3px;
+}
+
+span.rating-span {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.empty-heart {
+  padding-top: 5px;
+}
+
+@media all and (min-width: 800px) {
+  .TripCard {
+    margin-bottom: 0;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

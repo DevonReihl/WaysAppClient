@@ -1,0 +1,257 @@
+.wrapper div {
+  padding: 10px;
+  max-width: 200px;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 0.5em;
+  position: absolute;
+  z-index: 1;
+  margin-top: 11em;
+  margin-right: 0;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dash-btn {
+  background-color: white !important;
+}
+
+.dash-btn:hover {
+  color: #e61f82 !important;
+}
+
+.ways-header {
+  position: absolute;
+  z-index: -1;
+  font-size: 10vw;
+  color: #e61f82;
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  text-shadow: 2px 1px 2px rgb(0, 0, 0);
+  letter-spacing: -10px;
+  height: auto;
+  width: auto;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+section.landing-page::before {
+  content: '';
+  margin-top: 20%;
+}
+
+.background {
+  position: relative;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.background img {
+  margin-bottom: 50px;
+  margin-top: 3vh;
+  margin-right: 90vw;
+  padding-right: 5vw;
+  width: 75% !important;
+  height: auto;
+  position: absolute;
+}
+
+.about-ways-container {
+  margin: 1em 0 0 0;
+  padding: 10px;
+  width: 100vw;
+  position: relative;
+  background-color: #65b2ef;
+}
+
+.fa-hotel {
+  color: rgb(46, 140, 216);
+}
+
+.fa-plane-departure {
+  color: #a353d8;
+}
+
+.fa-car {
+  color: #d33e88 !important;
+}
+
+.about-ways {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15% 0 15%;
+}
+
+.wrapper {
+  position: relative;
+  background-color: white;
+  color: rgb(53, 53, 53);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.lets-go-btn {
+  box-shadow: none;
+  margin-top: 20px;
+  text-align: center;
+  width: 180px;
+  background-color: white;
+}
+
+.lets-go-btn:hover {
+  color: #e61f82;
+}
+
+.wrapper hr {
+  border: 1px solid rgb(46, 140, 216);
+}
+
+.background-image {
+  position: absolute;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-page-background {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.landing-page-container-1 {
+  padding: 0;
+  min-height: 1000px;
+  width: 100vw;
+}
+
+.longFade {
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+
+@media (max-height: 1000px) {
+  .background-image {
+    min-height: 1000px !important;
+  }
+}
+
+@media (max-width: 349px) {
+  .landing-page-container-1 {
+    height: 970px !important;
+  }
+  .ways-header {
+    font-size: 19vw !important;
+    letter-spacing: -3px !important;
+  }
+
+  .wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+  }
+
+  .linkToDashButton {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
+    background-color: #cce8ff;
+    width: 100%;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  .landing-page-background {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    width: 100vw !important;
+  }
+
+  .linkToDashButton {
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 449px) and (min-width: 350px) {
+  .ways-header {
+    font-size: 16vw !important;
+    letter-spacing: -2px !important;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 450px) {
+  .ways-header {
+    font-size: 14vw !important;
+    letter-spacing: -3px !important;
+  }
+
+  .background img {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .background img {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 920px) and (min-width: 600px) {
+  .ways-header {
+    font-size: 12vw !important;
+    letter-spacing: -5px !important;
+  }
+  .background img {
+    width: 70% !important;
+  }
+}

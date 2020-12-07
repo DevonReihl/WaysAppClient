@@ -1,0 +1,191 @@
+.addTripForm {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 98%;
+  margin: auto;
+}
+
+.addTripButton:hover {
+  cursor: pointer;
+}
+
+.addTripForm > label,
+.placeSearch {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addTripForm > input {
+  margin-bottom: 12px;
+}
+
+.addTripSection > div > h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(46, 140, 216);
+  text-align: center;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+}
+
+.addTripForm > input::-webkit-input-placeholder,
+.location-box::-webkit-input-placeholder {
+  color: rgb(184, 184, 184);
+}
+
+#days,
+#rating {
+  text-align: center;
+  width: 120px;
+  margin-left: 10px;
+}
+
+.trip-rating-days {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.TripCardDemo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.demo-middle {
+  word-wrap: break-word;
+}
+
+.TripCardDemo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.TripCardDemo-wrapper > img {
+  width: 50px;
+  height: 50px;
+  align-self: flex-start;
+  margin: 100px 5px 0px 5px;
+}
+
+.TripCardDemo-wrapper > img:active {
+  margin-top: 101px;
+}
+
+.country-menu {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 9px 20px;
+  font-weight: bold;
+  width: 165px;
+  margin-top: 12px;
+  color: rgb(82, 82, 82);
+  text-transform: lowercase;
+  margin-left: 10px;
+}
+
+.country-menu > option {
+  text-transform: lowercase;
+}
+
+.selectCountry {
+  text-align: center;
+}
+
+.placeSearch {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.style-list {
+  cursor: pointer;
+  list-style: none;
+  border-bottom: 1px solid #aaa;
+  height: 40px;
+  padding-left: 20px;
+  line-height: 40px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+}
+
+.style-list:hover {
+  background-color: #f6f6f6;
+}
+
+.TripCard-bottom-demo {
+  height: 80px;
+  width: 315px;
+  color: rgb(8, 8, 8);
+
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.TripCard-bottom-info-demo {
+  padding-top: 25px;
+  width: 315px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (min-width: 600px) {
+  .addTripForm {
+    width: 600px;
+    margin: auto;
+  }
+  .addTripForm > input {
+    margin-bottom: 12px;
+  }
+
+  .country-menu {
+    width: 165px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .selectCountry {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .placeSearch {
+    flex-direction: row;
+  }
+
+  .location-box {
+    width: 400px;
+  }
+
+  .style-list {
+    width: 398px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .TripCardDemo-wrapper > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .TripCardDemo {
+    width: 295px;
+  }
+
+  .TripCard-bottom-demo {
+    width: 100%;
+  }
+
+  .TripCard-bottom-info-demo {
+    width: 100%;
+    display: inline-block;
+  }
+}

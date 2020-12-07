@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm component Matches snapshot 1`] = `
+<div
+  className="form-wrapper"
+>
+  <form
+    action="#"
+    className="LoginForm"
+    onSubmit={[Function]}
+  >
+    <div
+      role="alert"
+    />
+    <div>
+      <Label
+        htmlFor="login-username-input"
+      >
+        Username
+      </Label>
+      <br />
+      <ForwardRef
+        id="login-username-input"
+        name="username"
+        required={true}
+      />
+    </div>
+    <div>
+      <Label
+        htmlFor="login-password-input"
+      >
+        Password
+      </Label>
+      <br />
+      <ForwardRef
+        id="login-password-input"
+        name="password"
+        required={true}
+        type="password"
+      />
+    </div>
+    <br />
+    <div
+      className="button-wrapper"
+    >
+      <ForwardRef
+        className="myButton"
+        type="submit"
+      >
+        Login
+      </ForwardRef>
+    </div>
+  </form>
+  <br />
+  <div
+    style={
+      Object {
+        "fontSize": "16px",
+      }
+    }
+  >
+    <center>
+      <p>
+        <b>
+          Demo User:
+        </b>
+        <br />
+        Username: John Rambo
+        <br />
+        Password: password
+         
+      </p>
+    </center>
+  </div>
+</div>
+`;

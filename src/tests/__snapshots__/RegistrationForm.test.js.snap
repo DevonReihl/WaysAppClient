@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationForm component Matches snapshot 1`] = `
+<div
+  className="form-wrapper"
+>
+  <form
+    action="#"
+    className="LoginForm"
+    onSubmit={[Function]}
+  >
+    <div
+      role="alert"
+    />
+    <div>
+      <Label
+        htmlFor="registration-name-input"
+      >
+        Enter your name
+        <Required />
+      </Label>
+      <br />
+      <ForwardRef
+        id="registration-name-input"
+        name="name"
+        required={true}
+      />
+    </div>
+    <div>
+      <Label
+        htmlFor="registration-username-input"
+      >
+        Choose a username
+        <Required />
+      </Label>
+      <br />
+      <ForwardRef
+        id="registration-username-input"
+        name="username"
+        required={true}
+      />
+    </div>
+    <div>
+      <Label
+        htmlFor="registration-password-input"
+      >
+        Choose a password
+        <Required />
+      </Label>
+      <br />
+      <ForwardRef
+        id="registration-password-input"
+        name="password"
+        required={true}
+        type="password"
+      />
+    </div>
+    <div>
+      <div
+        className="button-wrapper"
+      >
+        <Link
+          replace={false}
+          to="/login"
+        >
+          Already have an account?
+        </Link>
+        <br />
+        <br />
+        <ForwardRef
+          className="myButton"
+          type="submit"
+        >
+          Sign up
+        </ForwardRef>
+         
+      </div>
+    </div>
+  </form>
+</div>
+`;
